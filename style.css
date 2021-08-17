@@ -1,0 +1,95 @@
+.input-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+h1 {
+    text-align: center;
+    color: orange;
+    text-decoration: underline;
+}
+
+input {
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 15vw;
+}
+
+label {
+    font-size: 25px;
+}
+
+button {
+    padding: 1rem;
+    margin: 0.8rem;
+    border-radius: 8px;
+    width: 20vw;
+    background: cornflowerblue;
+    
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+}
+
+.button-box > button {
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.correct {
+    background-color: greenyellow;
+}
+
+.incorrect {
+    background-color: rgb(243, 132, 132);
+}
+
+.question {
+    margin: 1rem;
+    border: 1px solid black;
+    min-height: 20vh;
+    padding: 0.5rem;
+    font-size: 25px;
+    border-radius: 8px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.question > input {
+    margin: 0;
+    width: 40vw;
+    height: 1vh;
+}
+
+.question > button {
+    margin: 0;
+    height: 1vh;
+    text-align: center;
+}
+
+.ans-box {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 11px;
+    font-size: 20px;
+    background-color: lightgreen;
+    font-weight: 700;
+}
