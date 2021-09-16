@@ -13,6 +13,12 @@ const getHypotenuse = () => {
     const base = baseBox.value
     const height = heightBox.value
 
+    if(!base || !height) {
+        hypotenuseBox.innerHTML = `Please enter the details`
+        hypotenuseBox.className = "ans-box"
+        return
+    }
+
     let hypotenuse = calcHypotenuse(base,height)
     hypotenuseBox.innerHTML = `Hypotenuse is : ${hypotenuse}`
     hypotenuseBox.className = "ans-box"

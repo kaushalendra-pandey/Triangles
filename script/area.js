@@ -10,8 +10,15 @@ const calcArea = (base,height) => {
 
 const getArea = () => {
     areaBox.innerHTML = ""
+    areaBox.className = ""
     const base = baseBox.value
     const height = heightBox.value
+
+    if(!base || !height) {
+        areaBox.innerHTML = `Please enter the details`
+        areaBox.className = "ans-box"
+        return
+    }
 
     let area = calcArea(base,height)
     areaBox.innerHTML = `Area is : ${area}`
